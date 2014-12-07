@@ -1,6 +1,5 @@
-module Api
-  module V1
-    class UsersController < ApplicationController
-    end
+class Api::V1::UsersController < ApplicationController
+
+  def index
   end
 end
